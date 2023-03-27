@@ -42,7 +42,8 @@
     "prompt-sync": "^4.2.0",
     "ts-node": "^10.9.1",
     "tsc-watch": "^6.0.0",
-    "typedoc": "^0.23.27"
+    "typedoc": "^0.23.27",
+    "typescript": "^5.0.2"
   },
   "dependencies": {
     "inquirer": "^7.3.3",
