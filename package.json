@@ -5,6 +5,7 @@
   "main": "gestor.js",
   "type": "commonjs",
   "scripts": {
+    "ejerPrac": "tsc-watch --onSuccess \"node dist/pe102/mapClass.js\"",
     "start": "tsc-watch --onSuccess \"node dist/test.js\"",
     "doc": "typedoc",
     "coverage": "nyc npm test && nyc report --reporter=lcov",
