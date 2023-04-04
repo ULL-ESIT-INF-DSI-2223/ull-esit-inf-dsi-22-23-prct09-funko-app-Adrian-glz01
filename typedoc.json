@@ -4,7 +4,12 @@
     "./src/pe102/divMapReduce.ts",
     "./src/pe102/mapReduceClass.ts",
     "./src/pe102/multMapReduce.ts",
-    "./src/pe102/subMapReduce.ts"   
+    "./src/pe102/subMapReduce.ts", 
+    "./src/Funko/funko-app.ts",
+    "./src/Funko/funkoClass.ts",
+    "./src/Funko/manageFunction.ts",
+    "./src/Funko/types.ts",
+    "./src/Funko/utilities.ts"
   ], 
   "out": "./docs"
 }

@@ -1,12 +1,11 @@
 {
-  "name": "ull-esit-inf-dsi-22-23-prct07-destravate-datamodel-grupoe",
+  "name": "PR09",
   "version": "1.0.0",
   "description": "",
-  "main": "gestor.js",
+  "main": "main.js",
   "type": "commonjs",
   "scripts": {
-    "ejerPrac": "tsc-watch --onSuccess \"node dist/pe102/mapClass.js\"",
-    "start": "tsc-watch --onSuccess \"node dist/test.js\"",
+    "start": "tsc-watch --onSuccess \"node dist/Funko/funko-app.js\"",
     "doc": "typedoc",
     "coverage": "nyc npm test && nyc report --reporter=lcov",
     "test": "mocha"
@@ -27,11 +26,12 @@
     "@types/inquirer": "^9.0.3",
     "@types/lowdb": "^1.0.11",
     "@types/mocha": "^10.0.1",
-    "@types/node": "^18.15.10",
+    "@types/node": "^18.15.11",
     "@types/prompt-sync": "^4.2.0",
     "@types/yargs": "^17.0.23",
     "@typescript-eslint/eslint-plugin": "^5.55.0",
     "@typescript-eslint/parser": "^5.55.0",
+    "c8": "^7.13.0",
     "chai": "^4.3.7",
     "coveralls": "^3.1.1",
     "eslint": "^8.36.0",
@@ -46,6 +46,7 @@
     "typescript": "^5.0.2"
   },
   "dependencies": {
+    "chalk": "^4.1.2",
     "inquirer": "^7.3.3",
     "lowdb": "^1.0.0",
     "yargs": "^17.7.1"
