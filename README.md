@@ -3,6 +3,10 @@
 
 En está práctica pondremos en prácticas los conceptos aprendidos en las clases de teoría sobre las APIs síncronas de NODE.js.
 
+[![Coverage Status](https://coveralls.io/repos/github/ULL-ESIT-INF-DSI-2223/ull-esit-inf-dsi-22-23-prct09-funko-app-Adrian-glz01/badge.svg?branch=main)](https://coveralls.io/github/ULL-ESIT-INF-DSI-2223/ull-esit-inf-dsi-22-23-prct09-funko-app-Adrian-glz01?branch=main)
+
+
+
 Se ha pedido realizar una aplicación para almacenar listados de Funko Pops de una colección de usuarios. Contamos con un directorio 'database' en la raíz en el cual se encuentran alojados los directorios de cada usuario registrado en la aplicacion y dentro de cada uno de estos directorios se encuentra un conjunto de ficheros con extensión .json, y en estos se recogen los siguientes datos para cada funko:
 
   1. ID (ha de ser único)
